@@ -1,27 +1,46 @@
-As a music producer and creative, I generate a lot of data—project files, samples, downloaded software, and media libraries. My local machines were getting cluttered, and I wanted a centralized, scalable, and efficient way to store and access everything.
+DIY NAS Build — Repurposing an Old Desktop for Music Production Storage
+As a music producer and creative, I generate a ton of data—project files, samples, plugins, VST libraries, media, and more. My local machines were getting cluttered fast, and I needed a centralized, scalable, and efficient storage solution that wouldn't break the bank.
 
-Instead of buying an expensive pre-built NAS solution (300+ without drives), I challenged myself to build one from scratch using an old desktop from my parents. The goal was to create a cross-platform file server that could support both Windows and Linux access.
+Instead of dropping $300+ on a pre-built NAS (without drives), I took a different route: I challenged myself to build a NAS from scratch using an old HP Pavilion desktop from my parents. The goal? A cross-platform file server accessible from both Windows and Linux systems.
 
-System Overview: HP Pavilion p6710f
-Motherboard: Pegatron M2N78-LA (Violet6)
+🛠️ System Specs (Donor Machine)
+Model: HP Pavilion p6710f
 
-Form Factor: microATX
-
-Stock PSU: 250W (Bestec or Delta OEM)
-
-Case type: Standard mid-tower ATX, so you can physically fit a regular ATX PSU
+Motherboard: Pegatron M2N78-LA (Violet6) — microATX
 
 CPU: AMD Athlon II X4 635 (95W TDP)
 
-Drives Supported: 4 SATA ports 
+Power Supply (Stock): 250W OEM (Bestec or Delta)
 
-First order of buisness :
-Check Drive health after removing the drive 
-If i need to replace I will get some new ones  Most likely will be : 
+Drive Support: 4 SATA ports
 
-2× Seagate 7200RPM drives (RAID 1 planned)
+Case: Mid-tower ATX — room for standard ATX PSU
 
-Also will get a new fan or 2 (ARCTIC F12 - PC Fan, 120mm Standard Case Fan)
-Thermal paste for the cpu (MX-4 Thermal Compound )
-Sata Power cables ([2] SATA III 90-Degree w/ Locking Latch Internal Cable 18)
-80+ bronze power supply 650w (CW 650 Watt 80 Plus Bronze ATX Non-Modular Power Supply) 
+🔧 Initial To-Do List
+Before putting this machine into full-time storage duty, I needed to knock out a few upgrades and checks:
+
+Drive Health Check:
+Remove old drives, test for integrity, and replace as needed. Planning to install:
+
+2× Seagate 7200RPM SATA drives (for RAID 1 setup)
+
+Cooling + Maintenance:
+
+Add or replace case fans (ARCTIC F12 – 120mm standard fan)
+
+Reapply thermal paste to CPU (MX-4 Thermal Compound)
+
+Power Upgrade:
+
+Swap the OEM PSU for a modern, reliable unit:
+
+650W 80+ Bronze Non-Modular ATX PSU
+
+Cabling:
+
+Add SATA III 90-degree locking cables (x2)
+
+Ensure enough SATA power connectors from the PSU
+
+This project is a work in progress. Once complete, I’ll document the OS installation, RAID config, and remote access setup. Stay tuned!
+
