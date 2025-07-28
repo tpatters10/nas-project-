@@ -1,0 +1,4 @@
+As a music producer and creative, I generate a lot of data—project files, samples, downloaded software, and media libraries. My local machines were getting cluttered, and I wanted a centralized, scalable, and efficient way to store and access everything.
+
+Instead of buying an expensive pre-built NAS solution (300+ without drives), I challenged myself to build one from scratch using an old desktop from my parents. The goal was to create a cross-platform file server that could support both Windows and Linux access.
+
