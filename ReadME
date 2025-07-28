@@ -2,3 +2,26 @@ As a music producer and creative, I generate a lot of data—project files, samp
 
 Instead of buying an expensive pre-built NAS solution (300+ without drives), I challenged myself to build one from scratch using an old desktop from my parents. The goal was to create a cross-platform file server that could support both Windows and Linux access.
 
+System Overview: HP Pavilion p6710f
+Motherboard: Pegatron M2N78-LA (Violet6)
+
+Form Factor: microATX
+
+Stock PSU: 250W (Bestec or Delta OEM)
+
+Case type: Standard mid-tower ATX, so you can physically fit a regular ATX PSU
+
+CPU: AMD Athlon II X4 635 (95W TDP)
+
+Drives Supported: 4 SATA ports 
+
+First order of buisness :
+Check Drive health after removing the drive 
+If i need to replace I will get some new ones  Most likely will be : 
+
+2× Seagate 7200RPM drives (RAID 1 planned)
+
+Also will get a new fan or 2 (ARCTIC F12 - PC Fan, 120mm Standard Case Fan)
+Thermal paste for the cpu (MX-4 Thermal Compound )
+Sata Power cables ([2] SATA III 90-Degree w/ Locking Latch Internal Cable 18)
+80+ bronze power supply 650w (CW 650 Watt 80 Plus Bronze ATX Non-Modular Power Supply) 
