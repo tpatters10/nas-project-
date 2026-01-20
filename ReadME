@@ -42,5 +42,90 @@ Add SATA III 90-degree locking cables (x2)
 
 Ensure enough SATA power connectors from the PSU
 
-This project is a work in progress. Once complete, I’ll document the OS installation, RAID config, and remote access setup. Stay tuned!
+
+#Update Jan 2026 
+Build failed  but in the porcess i learned a lot about motherboards beep codes and ram sticks that dont want to cooperate lol.
+
+I now have a synology nas 4 bay 
+
+
+NAS Build & Storage Lab – Progress Update
+
+This project documents the design and setup of my home NAS and storage lab, built to support security labs, automation, and long-term data resilience.
+
+Hardware
+
+NAS: Synology 4-bay system
+
+Drives: New HDDs (configured for redundancy and monitoring) Raid 1 
+
+Network: 2.5GbE, 10-port unmanaged switch
+
+Client Systems: Linux and Windows hosts
+
+Core Configuration
+
+User & Access Management
+
+Created multiple user accounts for shared access
+
+Defined permission groups with controlled read/write/delete access
+
+Enabled SMB for cross-platform file sharing (Windows/Linux)
+
+Principle of least privilege applied where possible
+
+Storage & Data Protection
+
+Scheduled SMART monitoring
+
+Weekly quick tests
+
+Monthly extended tests
+
+Automated snapshot creation for key shares
+
+Snapshot retention policies configured to protect against accidental deletion and ransomware-style events
+
+Automation & Backups (In Progress)
+
+Working on automated off-site backups to Backblaze B2
+
+Goal: encrypted, versioned backups with scheduled sync
+
+Future plan includes validation checks and restore testing
+
+Networking
+
+2.5GbE switch enables higher throughput between NAS and lab systems
+
+Designed to support future lab expansion (VM hosts, security tooling, monitoring)
+
+Purpose of This Lab
+
+Support security experimentation (logging, monitoring, incident response)
+
+Provide reliable storage for VM images, lab data, and documentation
+
+Build hands-on experience with:
+
+Storage administration
+
+Access control
+
+Backup strategies
+
+Networked systems
+
+Next Steps
+
+Finalize Backblaze backup automation
+
+Add monitoring/logging integration
+
+Document failure and recovery scenarios
+
+Integrate with security tooling (SIEM, vuln scanning)
+
+
 
