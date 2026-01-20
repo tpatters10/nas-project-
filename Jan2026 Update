@@ -1,0 +1,35 @@
+
+##  Progress Updates (2026-01)
+
+### NAS Build & Storage Lab Update
+
+This project documents my home NAS setup and what I have configured so far.
+
+**Hardware**
+- Synology 4-bay NAS
+- 2.5GbE, 10-port unmanaged switch
+
+**Users & Permissions**
+- Created multiple users
+- Configured upload and delete permissions
+- Enabled SMB sharing across devices
+
+**Storage Protection**
+- Scheduled SMART quick checks weekly
+- Scheduled deep scans monthly
+- Alerts configured for any drive health concerns
+
+**Snapshot & Replication**
+- Automated snapshot schedules enabled
+- Replication configured for versioned recovery
+
+**Backing Up**
+- Next step: automate backups to Backblaze B2 and Glacier with redundancy across availability zones
+
+**Ongoing Work**
+- Monitoring integration (Wazuh)
+- Vulnerability scanning (Nessus/Tenable)
+- Lab automation and containerization
+
+Next planned updates will include screenshots, configs, and scripts.
+
